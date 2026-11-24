@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import "uniwind";
+@import "panelui-native/theme.css";
+
+@source '../../../node_modules/panelui-native/src';
+@source './';
+
+/* Sistema elegido: una sola paleta, también si el dispositivo solicita oscuro. */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  ::selection {
+    background: #dcebe8;
+    color: #173c45;
+  }
+  input,
+  textarea {
+    caret-color: #176c82;
+  }
+  [role="tab"]:focus-visible,
+  [role="checkbox"]:focus-visible {
+    outline: 2px solid #176c82;
+    outline-offset: 3px;
+  }
+}
+@layer theme {
+  :root {
+    @variant light {
+      --color-destructive: #b42332;
+      --color-destructive-foreground: #b42332;
+      --color-destructive-solid-foreground: #ffffff;
+      --color-background: #f6f4ef;
+      --color-foreground: #173c45;
+      --color-card: #f6f4ef;
+      --color-card-foreground: #173c45;
+      --color-surface: #f6f4ef;
+      --color-surface-secondary: #e8eeea;
+      --color-surface-tertiary: #cbd7d5;
+      --color-overlay: #f6f4ef;
+      --color-overlay-foreground: #173c45;
+      --color-chart-1: #176c82;
+      --color-chart-2: #2672c9;
+      --color-popover: #f6f4ef;
+      --color-popover-foreground: #173c45;
+      --color-primary: #176c82;
+      --color-primary-foreground: #ffffff;
+      --color-secondary: #dcebe8;
+      --color-secondary-foreground: #173c45;
+      --color-muted: #e8eeea;
+      --color-muted-foreground: #52696e;
+      --color-accent: #dcebe8;
+      --color-accent-foreground: #173c45;
+      --color-border: #cbd7d5;
+      --color-input: #82999e;
+      --color-ring: #176c82;
+    }
+    @variant dark {
+      --color-destructive: #b42332;
+      --color-destructive-foreground: #b42332;
+      --color-destructive-solid-foreground: #ffffff;
+      --color-background: #f6f4ef;
+      --color-foreground: #173c45;
+      --color-card: #f6f4ef;
+      --color-card-foreground: #173c45;
+      --color-surface: #f6f4ef;
+      --color-surface-secondary: #e8eeea;
+      --color-surface-tertiary: #cbd7d5;
+      --color-overlay: #f6f4ef;
+      --color-overlay-foreground: #173c45;
+      --color-chart-1: #176c82;
+      --color-chart-2: #2672c9;
+      --color-popover: #f6f4ef;
+      --color-popover-foreground: #173c45;
+      --color-primary: #176c82;
+      --color-primary-foreground: #ffffff;
+      --color-secondary: #dcebe8;
+      --color-secondary-foreground: #173c45;
+      --color-muted: #e8eeea;
+      --color-muted-foreground: #52696e;
+      --color-accent: #dcebe8;
+      --color-accent-foreground: #173c45;
+      --color-border: #cbd7d5;
+      --color-input: #82999e;
+      --color-ring: #176c82;
+    }
+  }
+}

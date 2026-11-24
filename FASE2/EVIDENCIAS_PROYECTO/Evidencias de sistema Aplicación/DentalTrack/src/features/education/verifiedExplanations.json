@@ -1,0 +1,50 @@
+[
+  {
+    "id": "endodoncia",
+    "title": "Endodoncia",
+    "aliases": ["endodoncia", "endodontico", "endodontica", "tratamiento de conducto", "tratamiento de conductos"],
+    "answer": "La endodoncia se ocupa de la pulpa, el tejido del interior del diente. El tratamiento de conductos puede retirar tejido infectado, limpiar el interior y sellarlo. La necesidad y la restauración posterior se determinan mediante una evaluación profesional.",
+    "source": { "institution": "NHS", "title": "Root canal treatment", "url": "https://www.nhs.uk/tests-and-treatments/root-canal-treatment/", "section": "How root canal treatment is done", "language": "en" },
+    "reviewedAt": "2026-11-14"
+  },
+  {
+    "id": "restauracion",
+    "title": "Restauración o tapadura",
+    "aliases": ["restauracion", "restauraciones", "resina", "resinas", "obturacion", "obturaciones", "tapadura", "tapaduras", "empaste", "empastes"],
+    "answer": "Una restauración repara una parte dañada del diente. En una tapadura se prepara la zona afectada y se rellena con un material como la resina. El nombre del presupuesto no determina por sí solo el tamaño de la reparación ni la técnica indicada para tu caso.",
+    "source": { "institution": "Uno Salud Dental", "title": "Tapaduras dentales: qué son, tipos, cuidados y valores", "url": "https://www.unosalud.cl/blog/tapaduras-dentales-que-son-tipos-cuidados-y-valores/", "section": "Qué son las tapaduras dentales", "language": "es" },
+    "reviewedAt": "2026-11-14"
+  },
+  {
+    "id": "corona",
+    "title": "Corona dental",
+    "aliases": ["corona", "coronas"],
+    "answer": "Una corona es una cubierta fija que rodea un diente preparado. Puede utilizarse para restaurar una pieza dañada o debilitada. El material y la necesidad de colocarla dependen de la evaluación del profesional.",
+    "source": { "institution": "NHS", "title": "Dental treatments", "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/#crowns", "section": "Crowns", "language": "en" },
+    "reviewedAt": "2026-11-14"
+  },
+  {
+    "id": "diastema",
+    "title": "Diastema",
+    "aliases": ["diastema", "diastemas"],
+    "answer": "Un diastema es un espacio entre dientes. Una prestación de cierre se refiere a reducir ese espacio. Su nombre no permite deducir qué técnica utilizará el profesional ni cuál será el resultado.",
+    "source": { "institution": "RedSalud", "title": "Ortodoncia invisible", "url": "https://www.redsalud.cl/blog/salud-dental/mejora-tu-su-sonrisa-de-manera-comoda-con-alineadores-invisibles", "section": "Diastema (espacio entre los dientes)", "language": "es" },
+    "reviewedAt": "2026-11-14"
+  },
+  {
+    "id": "fluor",
+    "title": "Flúor de uso dental",
+    "aliases": ["fluor", "fluoruro", "fluoracion"],
+    "answer": "El flúor contribuye a prevenir las caries. Una de sus formas de uso profesional es el barniz, que se aplica sobre los dientes y mantiene el flúor en contacto con su superficie. Existen otras presentaciones: confirma con tu profesional cuál corresponde a la prestación indicada.",
+    "source": { "institution": "CDC · Salud oral", "title": "About Fluoride", "url": "https://www.cdc.gov/oral-health/prevention/about-fluoride.html", "section": "Fluoride varnish", "language": "en" },
+    "reviewedAt": "2026-11-14"
+  },
+  {
+    "id": "ortodoncia",
+    "title": "Ortodoncia",
+    "aliases": ["ortodoncia", "ortodoncico", "ortodoncica", "brackets", "alineadores"],
+    "answer": "La ortodoncia mueve o alinea los dientes para mejorar su posición y funcionamiento. Puede emplear aparatos fijos o removibles. La valoración profesional determina qué opción corresponde a cada persona.",
+    "source": { "institution": "NHS", "title": "Dental treatments", "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/#braces", "section": "Braces", "language": "en" },
+    "reviewedAt": "2026-11-14"
+  }
+]

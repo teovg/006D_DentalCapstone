@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "DentalTrack",
+    "slug": "dentaltrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "dentaltrack",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dentaltrack.app",
+      "allowBackup": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#F3F7F8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "DentalTrack necesita acceder a la imagen del presupuesto que selecciones.",
+          "cameraPermission": "DentalTrack necesita usar la cámara para fotografiar tu presupuesto.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-splash-screen",
+      "expo-notifications",
+      "./plugins/withDentalNotificationChannels.cjs"
+    ]
+  }
+}
